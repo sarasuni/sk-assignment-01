@@ -17,9 +17,9 @@ As I love to cook, I wanted to share my recipes for the beginners and make it ea
 
 
 ### Website Screen Shots: ###
-![image](./assets/screenshots/screenshot-1.png)
-![image](./assets/screenshots/screenshot-2.png)
-![image](./assets/screenshots/screenshot-3.png)
+![image](assets/Screenshots/Screenshot-1.png)
+![image](assets/Screenshots/Screenshot-2.png)
+![image](assets/Screenshots/Screenshot-3.png)
 
 
 ### Website Contents: ###
