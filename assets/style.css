@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.header {
+    padding: 1px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: cadetblue;
+    color: white;
+    width: 100%;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+/* Below congiguration sets the header postion to fixed */
+#position {
+    position: fixed;
+}
+
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color:pink;
+}
+
+/* Float property to keep the header content on the right side */
+.header nav {
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+/* Sets the background-image using "url" */
+.food {
+    height: 1000px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../assets/images/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.drinks {
+    margin-right: 40px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 30%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:cadetblue;
+    text-align: center;
+    color: white;
+}
+
+.coffee img{
+    max-height: 200px;
+    margin-right: 25px;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+#chip img {
+    max-height: 200px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+#smoothie img {
+    max-height: 200px;
+    margin-right: 25px;
+    margin-bottom: 21px;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.contact {
+    color:white;
+    background-color:cadetblue ;
+    text-align: center;
+    padding: 45px;
+}
+
+
+.delicious {
+    width: 65%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.about {
+    margin-bottom: 25px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: cadetblue;
+    color:white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.about img {
+    max-height: 200px;
+    margin-right: 25px;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.float-left {
+    float: left;
+    margin-left: 25px;
+}
+
+.recipes {
+    margin-bottom: 25px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: cadetblue;
+    color:white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.recipes img {
+    max-height: 200px;
+    margin-right: 25px;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.float-right {
+    float: right;
+    margin-left:25px;
+}
+
+.health {
+    margin-bottom: 50px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: cadetblue;
+    color:white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.health img {
+    max-height: 200px;
+    margin-right: 25px;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.footer {
+   color: cadetblue;
+   background-color:pink;
+   padding: 30px;
+   clear:both;
+   text-align: center;
+}
+
+
+

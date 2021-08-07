@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+ <meta charset="UTF-8"/>
+     <!-- Linked to stylesheet using rel and href attributes -->
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+    <title>food website</title>
+</head>
+
+<body>
+<!-- Header division with class and id attributes to make it more colorful -->
+    <a id="top"></a>
+    <div class="header" id="position">
+        <h1>Super Simple Sarla</h1>
+        <nav> 
+<!-- Unordered list with href tags. on click scrolls to associated section of the page -->
+            <ul>
+                <li>
+                    <a href="#top">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#recipes">Recipes</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a href="#health">Health</a>
+                </li>
+             </ul>
+        </nav>
+   </div>
+
+<!-- Class attribute for background image which is linked in CSS style sheet-->
+   <div class="food"></div>
+
+<!-- Images with class and id attributes, alternative text and parapraph-->  
+<aside class="drinks">
+    <section class="coffee">
+        <h3>Coffee Lovers</h3>
+        <img src="assets/images/dalgona coffe.jpg" alt="Coffee pic">
+        <p>
+            Good ideas start with brainstorming
+        </p>
+    </section>
+
+   <!-- Used break tag to give space between division as above one has paragraph -->  
+    <br>
+    <section id="chip">
+        <h3>Chocolate Chip cookies</h3>
+        <img src="assets/images/chocolate chip.jpg" alt="Chocolate Chip cookie pic">
+    </section>
+    <br>
+
+   <!-- Images with class,id, alternative text -->
+    <sectione id="smoothie">
+        <h3>Smoothie</h3>
+        <img src="assets/images/smoothie-22.jpg" alt="Smoothie pic"> 
+    </section>
+    
+  <!-- Contact info with Email ID link -->
+    <section id="contact" class="contact">
+        <h2>Contact info</h2>  
+      <p> Email ID: <a href="mailto:sarasuni2021@gmail.com"> sarasuni2021@gmail.com</a></p>
+    </section>
+</aside>
+  
+  <!-- Images with class, id, paragraph, break tag to give space and alternative text -->
+<main class="delicious">
+    <article id="about" class="about">
+        <img src="./assets/images/pancake.jpg" alt="Pancake pic" class="float-left">
+        <br>
+            <h2>About</h2>
+            <p>
+                Welcome to Super Simple Sarla, where I share sweet, savory and southern recipes.
+            </p>
+        </br>
+    </article>
+
+<!-- Images with href link, class,id, paragraph with alternative text-->
+<article id="recipes" class="recipes">
+    <img src="./assets/images/banana-cake.jpg" alt="Banana cake" class="float-right">
+    <br>
+        <h2>Recipes</h2>
+        <p>Find updated simple and easy recipes for the whole family.</p>
+    <br> 
+        <p> Simple whole wheat banana cake at home. </p>
+          <a href="https://www.youtube.com/watch?v=mDWaOVcB8yY&list=UUdN-mZ1KeogYhu5MPppGTig&index=8">click here for recipe video </a>
+    </br>
+    </br>
+</article>
+
+<!-- Images with class, id , paragraph and alternative text-->
+<article  id="health" class="health">
+    <img src="assets/images/smoothie.jpg" alt="Smothie pic" class="float-left">
+    <br>
+        <h2>Health</h2>
+        <p>Health requires healthy food.</p>
+    </br>
+</article>
+</main>
+
+<!-- Footer with class attribute to make it colorful -->
+<div class="footer">
+    <h2>Made with ❤️️ by Sarasuni</h2>
+</div>
+
+</body>
+
+</html>
